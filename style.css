@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.botoes {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset, #pause-play, #start {
+    background-color: #01341d;
+    color: #FFF;
+    border: none;
+    padding: 15px;
+    border-radius: 5rem;
+    margin-right: 7px;
+    text-align: center;
+    
+}
